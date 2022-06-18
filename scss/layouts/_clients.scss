@@ -1,0 +1,19 @@
+.clients__container {
+    display: flex;
+    justify-content: center;
+}
+
+.clients__tittle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    color: #212121;
+    margin-bottom: 30px;
+}
+
+.clients__list {
+    display: flex;
+    justify-content: center;
+}

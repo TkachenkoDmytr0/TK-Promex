@@ -7,20 +7,49 @@
     align-items: center;
 }
 
-.header__logo {
+.tkpromex__logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: red;
-    margin: 0 24px;
     padding: 26px 0;
 }
 
 .headre__list {
     display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    margin-left: 80px;
+
+}
+
+.header__item {
+    margin-right: 20px;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .headre__list-contact {
+    display: flex;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
     margin-left: auto;
+}
+
+.header__item-contact {
+    margin-right: 20px;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }

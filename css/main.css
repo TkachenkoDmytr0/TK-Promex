@@ -21,6 +21,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+  background-color: silver;
 }
 
 .section {
@@ -98,13 +99,12 @@ img {
           align-items: center;
 }
 
-.header__logo {
+.tkpromex__logo {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: red;
-  margin: 0 24px;
   padding: 26px 0;
 }
 
@@ -112,9 +112,226 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  margin-left: 80px;
+}
+
+.header__item {
+  margin-right: 20px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
 }
 
 .headre__list-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
   margin-left: auto;
+}
+
+.header__item-contact {
+  margin-right: 20px;
+}
+
+.header__item-contact:last-child {
+  margin-right: 0;
+}
+
+.container__hero {
+  background-image: url(../images/bg/mceclip3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding: 200px 0;
+  margin: 0 auto;
+}
+
+.hero__tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: tomato;
+}
+
+.hero__buttom {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  background-color: orange;
+  margin: 0 auto;
+}
+
+.transportation__tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 30px;
+}
+
+.transportation__text-subtittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.transportation__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.transportation__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.benefits__tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 30px;
+}
+
+.benefits__subtittle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.benefits__item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.clients__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients__tittle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 30px;
+}
+
+.clients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer {
+  padding: 60px 0;
+  background-color: #2F303A;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.footer-tkpromex__logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: red;
+}
+
+.footer-address__item {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.footer-address__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  color: #FFFFFF;
+}
+
+.footer-container__social {
+  margin-left: 80px;
+}
+
+.footer-social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-social__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer-social__item {
+  margin-right: 10px;
+  color: #FFFFFF;
+}
+
+.footer-social__item:last-child {
+  margin-right: 0;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,61 @@
+.footer {
+    padding: 60px 0;
+    background-color: #2F303A;
+}
+
+.footer__container {
+
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-tkpromex__logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: red;
+}
+
+.footer-address__item {
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.footer-address__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+
+
+    color: #FFFFFF;
+}
+
+.footer-container__social {
+    margin-left: 80px;
+}
+
+.footer-social__list {
+    display: flex;
+}
+
+.footer-social__text {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.footer-social__item {
+    margin-right: 10px;
+    color: #FFFFFF;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

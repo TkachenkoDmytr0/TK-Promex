@@ -1,0 +1,26 @@
+.header__container {
+    background-color: #E5E5E5;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: red;
+    margin: 0 24px;
+    padding: 26px 0;
+}
+
+.headre__list {
+    display: flex;
+}
+
+.headre__list-contact {
+    margin-left: auto;
+}

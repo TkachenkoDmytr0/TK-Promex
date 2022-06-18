@@ -1,0 +1,120 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+:root {
+  --font-roboto: 'Roboto', sans-serif;
+  --color-bg__header: #E5E5E5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1600px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+.header__container {
+  background-color: #E5E5E5;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: red;
+  margin: 0 24px;
+  padding: 26px 0;
+}
+
+.headre__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headre__list-contact {
+  margin-left: auto;
+}
+/*# sourceMappingURL=main.css.map */
